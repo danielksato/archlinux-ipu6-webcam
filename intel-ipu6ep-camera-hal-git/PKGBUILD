@@ -4,7 +4,7 @@
 _ipu_ver=ipu6ep
 pkgname=intel-ipu6ep-camera-hal-git-fix
 _pkgname=ipu6-camera-hal
-pkgver=r95.da2e282
+pkgver=r103.289e645
 pkgrel=1
 pkgdesc="Intel IPU6 camera HAL (Alder Lake)"
 arch=('x86_64')
@@ -14,7 +14,7 @@ depends=('intel-ipu6-dkms-git' 'intel-ipu6ep-camera-bin')
 makedepends=('git' 'cmake')
 provides=(ipu6-camera-hal)
 conflicts=('intel-ipu6-camera-hal-git' 'intel-ipu6ep-camera-hal-git')
-source=("git+${url}.git#commit=da2e2821244f21b95bcb37a1271bf73360c4669e")
+source=("git+${url}.git")
 sha256sums=('SKIP')
 
 prepare() {
