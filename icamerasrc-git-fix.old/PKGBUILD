@@ -4,7 +4,7 @@
 # Original PKGBUILD: https://aur.archlinux.org/packages/icamerasrc-git
 _pkgname=icamerasrc
 pkgname=icamerasrc-git-fix
-pkgver=r59.17841ab
+pkgver=r65.931412a
 pkgrel=1
 pkgdesc="Intel IPU6 camera source for GStreamer"
 arch=('x86_64')
@@ -19,7 +19,7 @@ makedepends=('git'
              'make'
              'gcc')
 conflicts=('icamerasrc-git')
-source=("git+${url}.git#commit=17841ab6249aaa69bd9b3959262bf182dee74111")
+source=("git+${url}.git#commit=931412a66cdf5d24ed77aa3b652a958dae9b2e9e")
 sha256sums=('SKIP')
 
 prepare() {
